@@ -1,0 +1,492 @@
+*{
+    font-family: "Heebo", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 90%;
+    height: 80px;
+    margin-left: 5%;
+    position: absolute;
+}
+.logo{
+    margin-top: 15px;
+    width: 52px;
+    height: 52px;
+}
+.model,.electric,.configration,.vist,.more{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 2;
+}
+.model{
+    position: absolute;
+    left: 100px;
+}
+.electric{
+    position: absolute;
+    left: 170px;
+}
+.configration{
+    position: absolute;
+    left: 250px;
+}
+.vist{
+    position: absolute;
+    left: 370px;
+}
+.more{
+    position: absolute;
+    left: 520px;
+}
+.header{
+    position: absolute;
+    top: 81px;
+    width: 90%;
+    margin-left: 5%;
+}
+.model:hover::after,.electric:hover::after,.configration:hover::after,.vist:hover::after,.more:hover::after{
+    content: "";
+    background-color: blue;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translateX(-10px);
+}
+.video{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    cursor: pointer;
+    
+}
+.dicoverbtn{
+    background-color: #1c69d4;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 90%;
+    left: 110px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: default;
+}
+.ix{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.find{
+    width: 100%;
+    height: 490px;
+}
+.icon1{
+    width:400px;
+    height: 150px;
+    position: absolute;
+    top: 227%;
+    left: 100px;
+}
+.findtext{
+    text-decoration: none;
+    top: 247%;
+    position: absolute;
+    font-size:20px;
+    left: 15%;
+    color: black;
+    font-weight: 300;
+    cursor: alias;
+}
+.dicoverbtn:hover{
+    background-color: #0754bf;
+    cursor: pointer;
+}
+.search-now{
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 255%;
+    left: 14%;
+    font-size: 15px;
+}
+.icon2{
+    width: 450px;
+    top: 227%;
+    height: 150px;
+    position: absolute;
+    left: 35%;
+}
+.icon3{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 227%;
+    left: 65%;
+}
+.booktext{
+    text-decoration: none;
+    top: 247%;
+    position: absolute;
+    font-size:20px;
+    left: 45%;
+    color: black;
+    font-weight: 300;
+    cursor: alias;
+}
+.buildtext{
+    text-decoration: none;
+    top: 247%;
+    position: absolute;
+    font-size:20px;
+    left: 75%;
+    color: black;
+    font-weight: 300;
+    cursor: alias;
+}
+.request{
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 255%;
+    left: 44%;
+    font-size: 15px;
+}
+.price{
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 255%;
+    left: 74.5%;
+    font-size: 15px;
+}
+.search-now:hover,.request:hover,.price:hover{
+    cursor: pointer;
+    border-width: 3px;
+}
+.shopping-tool{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    position: absolute;
+    top: 213%;
+    color: gray;
+    left: 45%;
+    letter-spacing: 3px;
+}
+.find-your-bmw{
+    text-decoration: none;
+    font-weight: 250;
+    font-size: 50px;
+    position: absolute;
+    top: 217%;
+    left: 40%;
+    color: black;
+}
+.car1{
+    width: 100%;
+    height: auto;
+}
+.car2{
+    margin-top: 30px;
+    width: 100%;
+    height:auto;
+}
+.discription{
+    width: 100%;
+    height: 890px;
+}
+.dis1{
+    width: 652px;
+    height: 367px;
+}
+.dis2{
+    width: 652px;
+    height: 367px;
+    margin-bottom: 24px;
+}
+.disimg1{
+    margin-top: 36px;
+    margin-left: 95px;
+}
+.disimg2{
+    margin-top: 60px;
+    margin-left: 95px;
+}
+.line{
+    background: gray;
+    width: 99.9%;
+    height: 0.5px;
+    opacity: 30%;
+    margin-bottom: 35px;
+}
+.last{
+    color: black;
+    font-size: 11px;
+    opacity: 70%;
+    margin-left: 95px;
+    letter-spacing: 2px;
+}
+.all-models{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.others{
+    height: 395px;
+    width: 100%;
+    background-color: rgb(246,246,246);
+}
+.contact,.quick-links,.experience,.legal{
+    color: rgb(99,98,99);
+    font-size: 11px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    margin-right: 280px;
+    margin-top: 81px;
+}
+.contact{
+    margin-left: 96px;
+}
+.find-a-dealer,.request-a-test-drive-2,.careers,.contact-us{
+    display: flex;
+    text-decoration: none;
+    color: rgb(77,77,77);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 96px;
+    cursor: pointer;
+}
+.build-your-bmw,.bmw-finance,.bmw-safety,.emi,.premium{
+    display: flex;
+    text-decoration: none;
+    color: rgb(77,77,77);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 434px;
+    transform: translateY(-125px);
+    cursor: pointer;
+}
+.grp,.club,.motorrad,.network{
+    display: flex;
+    text-decoration: none;
+    color: rgb(77,77,77);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 797px;
+    transform: translateY(-282px);
+    cursor: pointer;
+}
+.disclaimer,.privacy{
+    display: flex;
+    text-decoration: none;
+    color: rgb(77,77,77);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 1186px;
+    transform: translateY(-397px);
+    cursor: pointer;
+}
+.dicoverbtn2{
+    background-color: #1c69d4;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 1250px;
+    left: 110px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: default;
+}
+.dicoverbtn2:hover{
+    background-color: #0754bf;
+    cursor: pointer;
+}
+.find-more-btn{
+    color: white;
+    text-decoration: none;
+    border: 0.5px solid white;
+    position: absolute;
+    top: 2280px;
+    padding: 13px 45px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    left: 110px;
+}
+.find-more-btn:hover{
+    border-width: 2px;
+    cursor: pointer;
+    translate: -1px -1px;
+}
+.know-more{
+    color: white;
+    text-decoration: none;
+    border: 0.5px solid white;
+    position: absolute;
+    top: 2855px;
+    padding: 13px 110px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    left: 110px;
+}
+.know-more:hover{
+    border-width: 2px;
+    cursor: pointer;
+    translate: -1px -1px;
+}
+.electrified{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 67px;
+    font-weight: bold;
+    color: rgb(102,102,102);
+    letter-spacing: 2px;
+}
+.joy{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.definition{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 30px;
+}
+.know-more2{
+    color: black;
+    text-decoration: none;
+    border: 0.5px solid black;
+    padding: 13px 56px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    left: 110px;
+    position: absolute;
+    margin-left: 665px;
+    margin-top: 315px;
+}
+.know-more2:hover{
+    border-width: 2px;
+    cursor: pointer;
+    translate: -1px -1px;
+}
+.finance-server{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 67px;
+    font-weight: bold;
+    color: rgb(102,102,102);
+    letter-spacing: 2px;
+}
+.offers{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.definition2{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 30px;
+}
+.know-more3{
+    color: black;
+    text-decoration: none;
+    border: 0.5px solid black;
+    padding: 13px 56px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    left: 110px;
+    position: absolute;
+    margin-left: 665px;
+    margin-top: 265px;
+}
+.know-more3:hover{
+    border-width: 2px;
+    cursor: pointer;
+    translate: -1px -1px;
+}
+.facebook,.instagram,.youtube,.linkedin,.x{
+    width: 29px;
+    height: 29px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.media{
+    position: absolute;
+    top: 4293px;
+    left: 100px;
+}
+.final{
+    height: 80px;
+}
+.legalf,.contactf,.privacyf{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 34px;
+}
+.ag{
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 34px;
+    cursor: default;
+}
+.legalf{
+    margin-left: 1072px;
+}
+.privacyf{
+    margin-left: 1246px;
+}
+.contactf{
+    margin-left: 1360px;
+}
+.legalf:hover,.contactf:hover,.privacyf:hover{
+    color: #0559ce;
+    cursor: pointer;
+}
